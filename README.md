@@ -27,12 +27,12 @@ The data encompasses several features related to real estate properties, such as
 Ensure you have the required libraries installed:
 
 
-'''bash 
+''' bash 
 pip install beautifulsoup4 requests
 
 To collect the data, simply run the provided Python script:
 
-'''bash
+''' bash
 python data_scraper.py
 
 After executing the script, you should find a property_data.csv file in the project directory containing the scraped data.

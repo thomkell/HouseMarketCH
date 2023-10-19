@@ -4,19 +4,21 @@ This repository contains data analysis on real estate listings. The main objecti
 
 ## Data Collection
 
-Note: Specific details about the data source have been omitted to respect terms of use and copyrights.
-Method
+**Note:** Specific details about the data source have been omitted to respect terms of use and copyrights.
+
+### Method
 The data was gathered using web scraping techniques. The tools and libraries used in the data collection process include:
 
-Python: The primary programming language.
+**Python:** The primary programming language.
 BeautifulSoup and requests: Used for HTML parsing and making web requests respectively.
 csv module: For saving the scraped data into CSV format.
-Data Features
+
+### Data Features
 The data encompasses several features related to real estate properties, such as:
 
 **Location:** The general location of the property.
 
-**Price:** The asking price for the property.
+**Price:** The asking price for the property.  
 
 **Rooms:** The number of rooms in the property.
 
@@ -26,14 +28,21 @@ The data encompasses several features related to real estate properties, such as
 
 Ensure you have the required libraries installed:
 
-
-''' bash 
+<pre>
+```bash
 pip install beautifulsoup4 requests
+```
+</pre>
+''' bash 
 
 To collect the data, simply run the provided Python script:
 
-''' bash
+<pre>
+```bash
 python data_scraper.py
+```
+</pre>
+''' bash 
 
 After executing the script, you should find a property_data.csv file in the project directory containing the scraped data.
 

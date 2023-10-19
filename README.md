@@ -11,7 +11,7 @@ The data was gathered using web scraping techniques. The tools and libraries use
 
 **Python:** The primary programming language<br>
 **BeautifulSoup and requests:** Used for HTML parsing and making web requests respectively.<br>
-**csv module:** For saving the scraped data into CSV format.
+**Csv module:** For saving the scraped data into CSV format.
 
 ### Data Features
 The data encompasses several features related to real estate properties, such as:
@@ -24,26 +24,22 @@ The data encompasses several features related to real estate properties, such as
 ### Usage
 
 Ensure you have the required libraries installed:
-
 ```bash
 pip install beautifulsoup4 requests
 ```
 
 
-
 To collect the data, simply run the provided Python script:
-
 ```bash
 python data_scraper.py
 ```
-
 
 After executing the script, you should find a property_data.csv file in the project directory containing the scraped data.
 
 ## Data Anlysis
 in progress
 
-## Result
+## Results
 in progress
 
 ## Disclaimer

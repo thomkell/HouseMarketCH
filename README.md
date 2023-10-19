@@ -9,9 +9,9 @@ This repository contains data analysis on real estate listings. The main objecti
 ### Method
 The data was gathered using web scraping techniques. The tools and libraries used in the data collection process include:
 
-**Python:** The primary programming language.
-BeautifulSoup and requests: Used for HTML parsing and making web requests respectively.
-csv module: For saving the scraped data into CSV format.
+**Python:** The primary programming language
+**BeautifulSoup and requests:** Used for HTML parsing and making web requests respectively.
+**csv module:** For saving the scraped data into CSV format.
 
 ### Data Features
 The data encompasses several features related to real estate properties, such as:
@@ -33,7 +33,7 @@ Ensure you have the required libraries installed:
 pip install beautifulsoup4 requests
 ```
 </pre>
-''' bash 
+
 
 To collect the data, simply run the provided Python script:
 
@@ -42,7 +42,7 @@ To collect the data, simply run the provided Python script:
 python data_scraper.py
 ```
 </pre>
-''' bash 
+
 
 After executing the script, you should find a property_data.csv file in the project directory containing the scraped data.
 

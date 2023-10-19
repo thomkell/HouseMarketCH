@@ -33,11 +33,9 @@ pip install beautifulsoup4 requests
 
 To collect the data, simply run the provided Python script:
 
-<pre>
 ```bash
 python data_scraper.py
 ```
-</pre>
 
 
 After executing the script, you should find a property_data.csv file in the project directory containing the scraped data.
